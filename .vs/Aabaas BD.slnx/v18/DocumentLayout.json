@@ -1,0 +1,580 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\dtos\\hotpackagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\hotpackagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\dtos\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\views\\package\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\package\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\views\\package\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\package\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\views\\booking\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\booking\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\views\\booking\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\booking\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\views\\booking\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\booking\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\views\\hotel\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\hotel\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\views\\hotel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\views\\hotel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\dal\\repos\\bookingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\bookingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\dal\\repos\\packagerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\packagerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\dal\\repos\\hotelrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\hotelrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\services\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\services\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|App\\App.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|e:\\10th semester\\adv. programming with .net\\aabaas bd\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HotPackageDTO.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\DTOs\\HotPackageDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\HotPackageDTO.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\DTOs\\HotPackageDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\HotPackageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T19:11:43.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingDTO.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\DTOs\\BookingDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\BookingDTO.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\DTOs\\BookingDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\BookingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T19:08:45.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HotelDTO.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\DTOs\\HotelDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\HotelDTO.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\DTOs\\HotelDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\HotelDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T19:08:32.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\UserDTO.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T19:08:12.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MapperConfig.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\MapperConfig.cs",
+              "RelativeDocumentMoniker": "BLL\\MapperConfig.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\MapperConfig.cs",
+              "RelativeToolTip": "BLL\\MapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T19:07:25.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "App\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:34:48.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "App\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:34:36.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Package\\Details.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Package\\Details.cshtml",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Package\\Details.cshtml",
+              "RelativeToolTip": "App\\Views\\Package\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:34:00.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Package\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Package\\Index.cshtml",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Package\\Index.cshtml",
+              "RelativeToolTip": "App\\Views\\Package\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:33:35.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Booking\\Details.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Booking\\Details.cshtml",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Booking\\Details.cshtml",
+              "RelativeToolTip": "App\\Views\\Booking\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:33:07.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Booking\\History.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Booking\\History.cshtml",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Booking\\History.cshtml",
+              "RelativeToolTip": "App\\Views\\Booking\\History.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:32:49.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Confirm.cshtml",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Booking\\Confirm.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Booking\\Confirm.cshtml",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Booking\\Confirm.cshtml",
+              "RelativeToolTip": "App\\Views\\Booking\\Confirm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:32:24.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Booking\\Create.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Booking\\Create.cshtml",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Booking\\Create.cshtml",
+              "RelativeToolTip": "App\\Views\\Booking\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:32:07.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Hotel\\Details.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Hotel\\Details.cshtml",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Hotel\\Details.cshtml",
+              "RelativeToolTip": "App\\Views\\Hotel\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:31:45.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Hotel\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Hotel\\Index.cshtml",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Views\\Hotel\\Index.cshtml",
+              "RelativeToolTip": "App\\Views\\Hotel\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:31:24.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectDTO.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\DTOs\\ProjectDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\ProjectDTO.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\DTOs\\ProjectDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\ProjectDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:30:01.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PackageRepo.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\DAL\\Repos\\PackageRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\PackageRepo.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\DAL\\Repos\\PackageRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\PackageRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:25:30.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookingRepo.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\DAL\\Repos\\BookingRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\BookingRepo.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\DAL\\Repos\\BookingRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\BookingRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:24:18.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HotelRepo.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\DAL\\Repos\\HotelRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\HotelRepo.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\DAL\\Repos\\HotelRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\HotelRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:23:34.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\EmailService.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\Services\\EmailService.cs",
+              "RelativeToolTip": "BLL\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:20:26.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RecommendationService.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\Services\\RecommendationService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\RecommendationService.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\Services\\RecommendationService.cs",
+              "RelativeToolTip": "BLL\\Services\\RecommendationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:20:02.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\BookingService.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\Services\\BookingService.cs",
+              "RelativeToolTip": "BLL\\Services\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:19:36.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BLL",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\BLL.csproj",
+              "RelativeDocumentMoniker": "BLL\\BLL.csproj",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\BLL.csproj",
+              "RelativeToolTip": "BLL\\BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-16T18:19:03.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HotelService.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\Services\\HotelService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\HotelService.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\Services\\HotelService.cs",
+              "RelativeToolTip": "BLL\\Services\\HotelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:19:12.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PackageController.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Controllers\\PackageController.cs",
+              "RelativeDocumentMoniker": "App\\Controllers\\PackageController.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Controllers\\PackageController.cs",
+              "RelativeToolTip": "App\\Controllers\\PackageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:18:37.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "App\\Controllers\\BookingController.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "App\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:18:12.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "App\\Controllers\\HotelController.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "App\\Controllers\\HotelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:17:31.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\App.csproj",
+              "RelativeDocumentMoniker": "App\\App.csproj",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\App.csproj",
+              "RelativeToolTip": "App\\App.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-16T18:10:39.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\appsettings.json",
+              "RelativeDocumentMoniker": "App\\appsettings.json",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\appsettings.json",
+              "RelativeToolTip": "App\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-16T14:13:35.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Program.cs",
+              "RelativeDocumentMoniker": "App\\Program.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\App\\Program.cs",
+              "RelativeToolTip": "App\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:13:21.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DAL",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-16T14:13:06.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "DAL\\Class1.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\DAL\\Class1.cs",
+              "RelativeToolTip": "DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:08:57.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "E:\\10th Semester\\Adv. Programming with .NET\\Aabaas BD\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:08:41.166Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

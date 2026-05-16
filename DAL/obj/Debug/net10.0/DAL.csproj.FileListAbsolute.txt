@@ -1,0 +1,12 @@
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\bin\Debug\net10.0\DAL.deps.json
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\bin\Debug\net10.0\DAL.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\bin\Debug\net10.0\DAL.pdb
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\DAL.AssemblyInfoInputs.cache
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\DAL.AssemblyInfo.cs
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\DAL.csproj.CoreCompileInputs.cache
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\DAL.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\refint\DAL.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\DAL.pdb
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\ref\DAL.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\DAL.csproj.AssemblyReference.cache

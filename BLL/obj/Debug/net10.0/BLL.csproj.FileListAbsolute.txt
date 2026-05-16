@@ -1,0 +1,11 @@
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\bin\Debug\net10.0\BLL.deps.json
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\bin\Debug\net10.0\BLL.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\bin\Debug\net10.0\BLL.pdb
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\obj\Debug\net10.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\obj\Debug\net10.0\BLL.AssemblyInfoInputs.cache
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\obj\Debug\net10.0\BLL.AssemblyInfo.cs
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\obj\Debug\net10.0\BLL.csproj.CoreCompileInputs.cache
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\obj\Debug\net10.0\BLL.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\obj\Debug\net10.0\refint\BLL.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\obj\Debug\net10.0\BLL.pdb
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\BLL\obj\Debug\net10.0\ref\BLL.dll
