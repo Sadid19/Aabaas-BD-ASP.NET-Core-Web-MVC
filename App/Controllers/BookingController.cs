@@ -158,7 +158,6 @@ namespace App.Controllers
             return View(booking);
         }
 
-        // Cancel a booking
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Cancel(int bookingId)

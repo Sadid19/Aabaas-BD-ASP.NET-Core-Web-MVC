@@ -93,7 +93,7 @@ namespace BLL.Services
             return (mapper.Map<List<HotelDTO>>(matchedHotels), mapper.Map<List<HotPackageDTO>>(matchedPackages),"Recommended for You");
         }
 
-        private int CalculateScore(string city, string roomType,int? starRating, List<string> bookedCities, List<string> bookedRoomTypes,List<int> bookedStarRatings)
+        public int CalculateScore(string city, string roomType,int? starRating, List<string> bookedCities, List<string> bookedRoomTypes,List<int> bookedStarRatings)
         {
             int score = 0;
 
@@ -115,7 +115,7 @@ namespace BLL.Services
             return score;
         }
 
-        private bool IsInList(List<string> list, string value)
+        public bool IsInList(List<string> list, string value)
         {
             for (int i = 0; i < list.Count; i++)
             {
@@ -127,7 +127,7 @@ namespace BLL.Services
             return false;
         }
 
-        private bool IsIntInList(List<int> list, int value)
+        public bool IsIntInList(List<int> list, int value)
         {
             for (int i = 0; i < list.Count; i++)
             {
@@ -139,7 +139,7 @@ namespace BLL.Services
             return false;
         }
 
-        private void AddUnique(List<string> list, string value)
+        public void AddUnique(List<string> list, string value)
         {
             if (value == null || value.Length == 0)
             {
@@ -152,13 +152,13 @@ namespace BLL.Services
             }
         }
 
-        private void AddUniqueInt(List<int> list, int value)
+        public void AddUniqueInt(List<int> list, int value)
         {
             if (!IsIntInList(list, value))
                 list.Add(value);
         }
 
-        private List<HotPackageDTO> GetPopularPackages()
+        public List<HotPackageDTO> GetPopularPackages()
         {
             List<HotPackage> data = packageRepo.GetActive();
             return mapper.Map<List<HotPackageDTO>>(data);
