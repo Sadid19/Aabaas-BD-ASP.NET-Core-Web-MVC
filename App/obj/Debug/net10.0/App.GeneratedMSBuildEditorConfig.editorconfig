@@ -38,6 +38,38 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/10th Semester/Adv. Programming with .NET/Aabaas BD/App/Views/Admin/AllBookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxsQm9va2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/10th Semester/Adv. Programming with .NET/Aabaas BD/App/Views/Admin/HotelDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG90ZWxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/10th Semester/Adv. Programming with .NET/Aabaas BD/App/Views/Admin/HotelForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG90ZWxGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/10th Semester/Adv. Programming with .NET/Aabaas BD/App/Views/Admin/Hotels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG90ZWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/10th Semester/Adv. Programming with .NET/Aabaas BD/App/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/10th Semester/Adv. Programming with .NET/Aabaas BD/App/Views/Admin/PackageDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFja2FnZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/10th Semester/Adv. Programming with .NET/Aabaas BD/App/Views/Admin/PackageForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFja2FnZUZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/10th Semester/Adv. Programming with .NET/Aabaas BD/App/Views/Admin/Packages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFja2FnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/10th Semester/Adv. Programming with .NET/Aabaas BD/App/Views/Booking/Confirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDb25maXJtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

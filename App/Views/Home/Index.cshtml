@@ -1,8 +1,87 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+@model List<HotPackageDTO>
+@{
+    ViewData["Title"] = "Home";
+    string heading = ViewBag.RecommendationHeading as string ?? "Popular Deals";
+    var recommendedHotels = ViewBag.RecommendedHotels as List<HotelDTO> ?? new List<HotelDTO>();
+    bool isLoggedIn = Context.Session.GetInt32("UserId") != null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>Welcome to Aabaas BD</h2>
+<p>Discover and book the best hotels across Bangladesh.</p>
+<hr />
+
+@if (isLoggedIn)
+{
+    <h4>@heading</h4>
+
+    @if (recommendedHotels.Count > 0)
+    {
+        <h5>Hotels</h5>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Stars</th>
+                    <th>Room Type</th>
+                    <th>Price/Night</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var hotel in recommendedHotels)
+                {
+                    <tr>
+                        <td>@hotel.Name</td>
+                        <td>@hotel.City</td>
+                        <td>@hotel.StarRating</td>
+                        <td>@hotel.RoomType</td>
+                        <td>BDT @hotel.PricePerNight.ToString("N0")</td>
+                        <td>
+                            <a asp-controller="Hotel" asp-action="Details" asp-route-id="@hotel.HotelId" class="btn btn-sm btn-primary">Details</a>
+                            <a asp-controller="Booking" asp-action="Create" asp-route-hotelId="@hotel.HotelId" class="btn btn-sm btn-success">Book Now</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    @if (Model.Count > 0)
+    {
+        <h5>Hot Packages</h5>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Hotel</th>
+                    <th>City</th>
+                    <th>Price</th>
+                    <th>Valid Until</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pkg in Model)
+                {
+                    <tr>
+                        <td>@pkg.Title</td>
+                        <td>@pkg.HotelName</td>
+                        <td>@pkg.HotelCity</td>
+                        <td>BDT @pkg.Price.ToString("N0")</td>
+                        <td>@pkg.ValidUntil.ToString("dd MMM yyyy")</td>
+                        <td>
+                            <a asp-controller="Package" asp-action="Details" asp-route-id="@pkg.PackageId" class="btn btn-sm btn-primary">Details</a>
+                            <a asp-controller="Hotel" asp-action="Details" asp-route-id="@pkg.HotelId" class="btn btn-sm btn-success">Book Hotel</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    @if (recommendedHotels.Count == 0 && Model.Count == 0)
+    {
+        <p>No recommendations available right now <a asp-controller="Hotel" asp-action="Index">Browse all hotels</a>.</p>
+    }
+}

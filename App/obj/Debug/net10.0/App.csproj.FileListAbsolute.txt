@@ -21,7 +21,6 @@ E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\rjsm
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\scopedcss\bundle\App.styles.css
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\scopedcss\projectbundle\App.bundle.scp.css
-E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\compressed\h9ikjdt7jm-{0}-b9sayid5wm-b9sayid5wm.gz
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\compressed\79ocg1o0i1-{0}-61n19gt1b8-61n19gt1b8.gz
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\compressed\wivm51wb2h-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\compressed\4v21ys4gpc-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -224,3 +223,12 @@ E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\bin\Debug\net10.0\runt
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\bin\Debug\net10.0\AutoMapper.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\bin\Debug\net10.0\BLL.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\bin\Debug\net10.0\BLL.pdb
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\App.sourcelink.json
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\bin\Debug\net10.0\BouncyCastle.Cryptography.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\bin\Debug\net10.0\MailKit.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\bin\Debug\net10.0\MimeKit.dll
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\App\obj\Debug\net10.0\compressed\h9ikjdt7jm-{0}-63o8lbwjx9-63o8lbwjx9.gz

@@ -1,5 +1,15 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+@model HotelDTO
 @{
+    ViewData["Title"] = Model.Name;
 }
+
+<h2>@Model.Name</h2>
+<hr />
+<p><strong>City:</strong> @Model.City</p>
+<p><strong>Star Rating:</strong> @Model.StarRating</p>
+<p><strong>Room Type:</strong> @Model.RoomType</p>
+<p><strong>Price Per Night:</strong> BDT @Model.PricePerNight.ToString("N0")</p>
+<p><strong>Description:</strong> @Model.Description</p>
+<hr />
+<a asp-controller="Booking" asp-action="Create" asp-route-hotelId="@Model.HotelId" class="btn btn-success">Book Now</a>
+<a asp-controller="Hotel" asp-action="Index" class="btn btn-secondary">Back to Hotels</a>

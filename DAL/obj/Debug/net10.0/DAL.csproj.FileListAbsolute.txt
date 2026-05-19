@@ -10,3 +10,4 @@ E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\refi
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\DAL.pdb
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\ref\DAL.dll
 E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\DAL.csproj.AssemblyReference.cache
+E:\10th Semester\Adv. Programming with .NET\Aabaas BD\DAL\obj\Debug\net10.0\DAL.sourcelink.json

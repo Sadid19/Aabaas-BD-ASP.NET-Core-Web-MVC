@@ -1,0 +1,16 @@
+To: sazzad53913@gmail.com
+Subject: Aabaas BD - Booking Received (Pending)
+
+Dear Guest,
+
+Your booking request has been received and is pending.
+
+Hotel: Baywatch
+City: Cox's Bazar
+Check-in: 20 May 2026
+Check-out: 22 May 2026
+Total Cost: BDT 140,000.00
+Status: Pending
+
+Thank you for choosing Aabaas BD.
+

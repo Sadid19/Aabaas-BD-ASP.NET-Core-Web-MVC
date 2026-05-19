@@ -1670,6 +1670,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Microsoft.EntityFrameworkCore >= 10.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.8"
     ]
   },
@@ -1715,7 +1716,10 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "all",
+        "suppressedAdvisories": {
+          "https://github.com/advisories/GHSA-rvv3-g6hj-g44x": null
+        }
       },
       "SdkAnalysisLevel": "10.0.100"
     },
@@ -1723,6 +1727,10 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[10.0.8, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[10.0.8, )"

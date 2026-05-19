@@ -1,0 +1,50 @@
+@model List<BookingDTO>
+@{
+    ViewData["Title"] = "All Bookings";
+}
+
+<h2>All Bookings</h2>
+<p>Showing all bookings from all users.</p>
+<hr />
+
+@if (!Model.Any())
+{
+    <p>No bookings found.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>User Email</th>
+                <th>Hotel</th>
+                <th>City</th>
+                <th>Check-in</th>
+                <th>Check-out</th>
+                <th>Total (BDT)</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var b in Model)
+            {
+                string badgeClass = "bg-warning text-dark";
+                if (b.Status == "Booked") badgeClass = "bg-success";
+                if (b.Status == "Cancelled") badgeClass = "bg-danger";
+                if (b.Status == "Completed") badgeClass = "bg-secondary";
+
+                <tr>
+                    <td>@b.BookingId</td>
+                    <td>@b.UserEmail</td>
+                    <td>@b.HotelName</td>
+                    <td>@b.HotelCity</td>
+                    <td>@b.CheckIn.ToString("dd MMM yyyy")</td>
+                    <td>@b.CheckOut.ToString("dd MMM yyyy")</td>
+                    <td>@b.TotalCost.ToString("N0")</td>
+                    <td><span class="badge @badgeClass">@b.Status</span></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

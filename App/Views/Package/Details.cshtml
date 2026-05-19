@@ -1,5 +1,15 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+@model HotPackageDTO
 @{
+    ViewData["Title"] = Model.Title;
 }
+
+<h2>@Model.Title</h2>
+<hr />
+<p><strong>Hotel:</strong> @Model.HotelName</p>
+<p><strong>City:</strong> @Model.HotelCity</p>
+<p><strong>Price:</strong> BDT @Model.Price.ToString("N0")</p>
+<p><strong>Valid Until:</strong> @Model.ValidUntil.ToString("dd MMM yyyy")</p>
+<p><strong>Description:</strong> @Model.Description</p>
+<hr />
+<a asp-controller="Hotel" asp-action="Details" asp-route-id="@Model.HotelId" class="btn btn-success">View Hotel &amp; Book</a>
+<a asp-controller="Package" asp-action="Index" class="btn btn-secondary">All Packages</a>

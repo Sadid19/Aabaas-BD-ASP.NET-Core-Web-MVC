@@ -1,5 +1,64 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+@model List<BookingDTO>
 @{
+    ViewData["Title"] = "My Bookings";
+}
+
+<h2>Booking History</h2>
+<hr />
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+@if (Model.Count == 0)
+{
+    <p>You have no bookings yet. <a asp-controller="Hotel" asp-action="Index">Browse hotels</a> to get started.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Hotel</th>
+                <th>City</th>
+                <th>Check-in</th>
+                <th>Check-out</th>
+                <th>Total</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var b in Model)
+            {
+                string badgeClass = "bg-warning text-dark";
+                if (b.Status == "Booked") badgeClass = "bg-success";
+                if (b.Status == "Confirmed") badgeClass = "bg-success";
+                if (b.Status == "Cancelled") badgeClass = "bg-danger";
+                if (b.Status == "Pending") badgeClass = "bg-warning text-dark";
+
+                <tr>
+                    <td>@b.HotelName</td>
+                    <td>@b.HotelCity</td>
+                    <td>@b.CheckIn.ToString("dd MMM yyyy")</td>
+                    <td>@b.CheckOut.ToString("dd MMM yyyy")</td>
+                    <td>BDT @b.TotalCost.ToString("N0")</td>
+                    <td><span class="badge @badgeClass">@b.Status</span></td>
+                    <td>
+                        <a asp-controller="Booking" asp-action="Details" asp-route-id="@b.BookingId" class="btn btn-sm btn-primary">Details</a>
+                        @if (b.CanCancel)
+                        {
+                            <form method="post" asp-controller="Booking" asp-action="Cancel" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="bookingId" value="@b.BookingId" />
+                                <button type="submit" class="btn btn-sm btn-danger"
+                                        onclick="return confirm('Cancel this booking?');">Cancel</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }

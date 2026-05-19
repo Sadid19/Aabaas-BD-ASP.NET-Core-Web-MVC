@@ -1,5 +1,85 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+@model List<HotelDTO>
 @{
+    ViewData["Title"] = "Hotels";
+    var filter = ViewBag.Filter as HotelSearchFilter ?? new HotelSearchFilter();
+    var cities = ViewBag.Cities as List<string> ?? new List<string>();
+    var roomTypes = ViewBag.RoomTypes as List<string> ?? new List<string>();
 }
+
+<h2>Search Hotels</h2>
+
+<form method="get" asp-controller="Hotel" asp-action="Index" class="mb-3">
+    <div class="row g-2">
+        <div class="col-md-2">
+            <label>City</label>
+            <select name="City" class="form-select">
+                <option value="">All Cities</option>
+                @foreach (var city in cities)
+                {
+                    <option value="@city" selected="@(filter.City == city)">@city</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label>Star Rating</label>
+            <select name="StarRating" class="form-select">
+                <option value="">Any</option>
+                @for (int s = 3; s <= 5; s++)
+                {
+                    <option value="@s" selected="@(filter.StarRating == s)">@s Star</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label>Room Type</label>
+            <select name="RoomType" class="form-select">
+                <option value="">Any</option>
+                @foreach (var rt in roomTypes)
+                {
+                    <option value="@rt" selected="@(filter.RoomType == rt)">@rt</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label>Min Price (BDT)</label>
+            <input type="number" name="MinPrice" class="form-control" value="@filter.MinPrice" min="0" />
+        </div>
+        <div class="col-md-2">
+            <label>Max Price (BDT)</label>
+            <input type="number" name="MaxPrice" class="form-control" value="@filter.MaxPrice" min="0" />
+        </div>
+        <div class="col-md-2 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary w-100">Search</button>
+        </div>
+    </div>
+</form>
+
+<p>@Model.Count hotel(s) found</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Stars</th>
+            <th>Room Type</th>
+            <th>Price/Night</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var hotel in Model)
+        {
+            <tr>
+                <td>@hotel.Name</td>
+                <td>@hotel.City</td>
+                <td>@hotel.StarRating</td>
+                <td>@hotel.RoomType</td>
+                <td>BDT @hotel.PricePerNight.ToString("N0")</td>
+                <td>
+                    <a asp-controller="Hotel" asp-action="Details" asp-route-id="@hotel.HotelId" class="btn btn-sm btn-primary">View Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

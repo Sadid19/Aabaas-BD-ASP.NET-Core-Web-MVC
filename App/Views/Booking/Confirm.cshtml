@@ -1,5 +1,29 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+@model BookingDTO
 @{
+    ViewData["Title"] = "Confirm Booking";
 }
+
+<h2>Confirm Your Booking &amp; Payment</h2>
+<hr />
+
+<p><strong>Hotel:</strong> @Model.HotelName</p>
+<p><strong>City:</strong> @Model.HotelCity</p>
+<p><strong>Check-in:</strong> @Model.CheckIn.ToString("dd MMM yyyy")</p>
+<p><strong>Check-out:</strong> @Model.CheckOut.ToString("dd MMM yyyy")</p>
+<p><strong>Nights:</strong> @Model.Nights</p>
+<p><strong>Rate:</strong> BDT @Model.PricePerNight.ToString("N0") / night</p>
+<p><strong>Total Cost:</strong> BDT @Model.TotalCost.ToString("N2")</p>
+<hr />
+
+<form method="post" asp-controller="Booking" asp-action="Confirm">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="HotelId" value="@Model.HotelId" />
+    <input type="hidden" name="UserId" value="@Model.UserId" />
+    <input type="hidden" name="CheckIn" value="@Model.CheckIn.ToString("yyyy-MM-dd")" />
+    <input type="hidden" name="CheckOut" value="@Model.CheckOut.ToString("yyyy-MM-dd")" />
+    <input type="hidden" name="TotalCost" value="@Model.TotalCost" />
+    <input type="hidden" name="PricePerNight" value="@Model.PricePerNight" />
+    <input type="hidden" name="Nights" value="@Model.Nights" />
+    <button type="submit" class="btn btn-success">Confirm &amp; Pay</button>
+    <a asp-controller="Booking" asp-action="Create" asp-route-hotelId="@Model.HotelId" class="btn btn-secondary">Go Back</a>
+</form>

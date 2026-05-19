@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "DAL/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.8"
         },
         "runtime": {

@@ -1,0 +1,15 @@
+@model HotPackageDTO
+@{
+    ViewData["Title"] = Model.Title + " - Details";
+}
+
+<h2>@Model.Title</h2>
+<hr />
+<p><strong>Hotel:</strong> @Model.HotelName</p>
+<p><strong>City:</strong> @Model.HotelCity</p>
+<p><strong>Price:</strong> BDT @Model.Price.ToString("N0")</p>
+<p><strong>Valid Until:</strong> @Model.ValidUntil.ToString("dd MMM yyyy")</p>
+<p><strong>Description:</strong> @Model.Description</p>
+<hr />
+<a asp-controller="Admin" asp-action="EditPackage" asp-route-id="@Model.PackageId" class="btn btn-primary">Edit This Deal</a>
+<a asp-controller="Admin" asp-action="Packages" class="btn btn-secondary">Back to Packages</a>

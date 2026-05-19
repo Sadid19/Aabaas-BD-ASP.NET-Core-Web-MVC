@@ -1,0 +1,16 @@
+To: mrlesnar555@gmail.com
+Subject: Aabaas BD - Booking Cancelled
+
+Dear Guest,
+
+Your booking has been cancelled.
+
+Hotel: Baywatch
+City: Cox's Bazar
+Check-in: 18 May 2026
+Check-out: 20 May 2026
+Total Cost: BDT 140,000.00
+Status: Cancelled
+
+Thank you for choosing Aabaas BD.
+

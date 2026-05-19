@@ -1,0 +1,74 @@
+@model HotelDTO
+@{
+    bool isEdit = Model.HotelId > 0;
+    ViewData["Title"] = isEdit ? "Edit Hotel" : "Add Hotel";
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+
+@if (isEdit)
+{
+    <form method="post" asp-controller="Admin" asp-action="EditHotel" asp-route-id="@Model.HotelId" style="max-width: 500px;">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="HotelId" value="@Model.HotelId" />
+        <div class="mb-3">
+            <label>Name</label>
+            <input name="Name" class="form-control" value="@Model.Name" required />
+        </div>
+        <div class="mb-3">
+            <label>City</label>
+            <input name="City" class="form-control" value="@Model.City" required />
+        </div>
+        <div class="mb-3">
+            <label>Star Rating</label>
+            <input name="StarRating" type="number" min="1" max="5" class="form-control" value="@Model.StarRating" />
+        </div>
+        <div class="mb-3">
+            <label>Price Per Night (BDT)</label>
+            <input name="PricePerNight" type="number" step="0.01" class="form-control" value="@Model.PricePerNight" required />
+        </div>
+        <div class="mb-3">
+            <label>Room Type</label>
+            <input name="RoomType" class="form-control" value="@Model.RoomType" required />
+        </div>
+        <div class="mb-3">
+            <label>Description</label>
+            <textarea name="Description" class="form-control" rows="3">@Model.Description</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-controller="Admin" asp-action="Hotels" class="btn btn-secondary">Back</a>
+    </form>
+}
+else
+{
+    <form method="post" asp-controller="Admin" asp-action="CreateHotel" style="max-width: 500px;">
+        @Html.AntiForgeryToken()
+        <div class="mb-3">
+            <label>Name</label>
+            <input name="Name" class="form-control" value="@Model.Name" required />
+        </div>
+        <div class="mb-3">
+            <label>City</label>
+            <input name="City" class="form-control" value="@Model.City" required />
+        </div>
+        <div class="mb-3">
+            <label>Star Rating</label>
+            <input name="StarRating" type="number" min="1" max="5" class="form-control" value="@Model.StarRating" />
+        </div>
+        <div class="mb-3">
+            <label>Price Per Night (BDT)</label>
+            <input name="PricePerNight" type="number" step="0.01" class="form-control" value="@Model.PricePerNight" required />
+        </div>
+        <div class="mb-3">
+            <label>Room Type</label>
+            <input name="RoomType" class="form-control" value="@Model.RoomType" required />
+        </div>
+        <div class="mb-3">
+            <label>Description</label>
+            <textarea name="Description" class="form-control" rows="3">@Model.Description</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-controller="Admin" asp-action="Hotels" class="btn btn-secondary">Back</a>
+    </form>
+}

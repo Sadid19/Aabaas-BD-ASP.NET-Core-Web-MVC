@@ -1,25 +1,71 @@
-using App.Models;
+using BLL.DTOs;
+using BLL.Services;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using System.Collections.Generic;
 
 namespace App.Controllers
 {
     public class HotelController : Controller
     {
-        public IActionResult Index()
+        HotelService hotelService;
+
+        public HotelController(HotelService hotelService)
         {
-            return View();
+            this.hotelService = hotelService;
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public IActionResult Index(HotelSearchFilter filter)
         {
-            return View();
+            List<HotelDTO> hotels;
+
+            bool hasFilter = false;
+            if (filter.City != null && filter.City.Length > 0)
+            {
+                hasFilter = true;
+            }
+            if (filter.StarRating.HasValue)
+            {
+                hasFilter = true;
+            }
+
+            if (filter.RoomType != null && filter.RoomType.Length > 0)
+            {
+                hasFilter = true;
+            }
+            if (filter.MinPrice.HasValue)
+            {
+                hasFilter = true;
+            }
+            if (filter.MaxPrice.HasValue)
+            {
+                hasFilter = true;
+            }
+
+            if (hasFilter)
+            {
+                hotels = hotelService.Search(filter);
+            }
+            else
+            {
+                hotels = hotelService.Get();
+            }
+
+            ViewBag.Filter = filter;
+            ViewBag.Cities = hotelService.GetCityList();
+            ViewBag.RoomTypes = hotelService.GetRoomTypeList();
+            return View(hotels);
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [HttpGet]
+        public IActionResult Details(int id)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            HotelDTO hotel = hotelService.Get(id);
+            if (hotel == null)
+            {
+                return NotFound();
+            }
+            return View(hotel);
         }
     }
 }

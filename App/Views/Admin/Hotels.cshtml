@@ -1,0 +1,89 @@
+@model List<HotelDTO>
+@{
+    ViewData["Title"] = "Admin - Hotels";
+    var filter = ViewBag.Filter as HotelSearchFilter ?? new HotelSearchFilter();
+    var cities = ViewBag.Cities as List<string> ?? new List<string>();
+    var roomTypes = ViewBag.RoomTypes as List<string> ?? new List<string>();
+}
+
+<h2>Manage Hotels</h2>
+<a asp-controller="Admin" asp-action="CreateHotel" class="btn btn-primary mb-3">Add New Hotel</a>
+
+<form method="get" asp-controller="Admin" asp-action="Hotels" class="mb-3">
+    <div class="row g-2">
+        <div class="col-md-2">
+            <label>City</label>
+            <select name="City" class="form-select">
+                <option value="">All Cities</option>
+                @foreach (var city in cities)
+                {
+                    <option value="@city" selected="@(filter.City == city)">@city</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label>Star Rating</label>
+            <select name="StarRating" class="form-select">
+                <option value="">Any</option>
+                <option value="3" selected="@(filter.StarRating == 3)">3 Star</option>
+                <option value="4" selected="@(filter.StarRating == 4)">4 Star</option>
+                <option value="5" selected="@(filter.StarRating == 5)">5 Star</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label>Room Type</label>
+            <select name="RoomType" class="form-select">
+                <option value="">Any</option>
+                @foreach (var rt in roomTypes)
+                {
+                    <option value="@rt" selected="@(filter.RoomType == rt)">@rt</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label>Min Price</label>
+            <input type="number" name="MinPrice" class="form-control" value="@filter.MinPrice" />
+        </div>
+        <div class="col-md-2">
+            <label>Max Price</label>
+            <input type="number" name="MaxPrice" class="form-control" value="@filter.MaxPrice" />
+        </div>
+        <div class="col-md-2 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary w-100">Filter</button>
+        </div>
+    </div>
+</form>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Stars</th>
+            <th>Price/Night</th>
+            <th>Room</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var h in Model)
+        {
+            <tr>
+                <td>@h.Name</td>
+                <td>@h.City</td>
+                <td>@h.StarRating</td>
+                <td>BDT @h.PricePerNight.ToString("N0")</td>
+                <td>@h.RoomType</td>
+                <td>
+                    <a asp-controller="Admin" asp-action="HotelDetails" asp-route-id="@h.HotelId" class="btn btn-sm btn-secondary">Details</a>
+                    <a asp-controller="Admin" asp-action="EditHotel" asp-route-id="@h.HotelId" class="btn btn-sm btn-primary">Edit</a>
+                    <form method="post" asp-controller="Admin" asp-action="DeleteHotel" asp-route-id="@h.HotelId" class="d-inline">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-sm btn-danger"
+                                onclick="return confirm('Delete this hotel?');">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

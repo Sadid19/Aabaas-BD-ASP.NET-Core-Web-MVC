@@ -1,0 +1,44 @@
+@model List<HotPackageDTO>
+@{
+    ViewData["Title"] = "Admin Home";
+}
+
+<h2>Hot Packages &amp; Deals</h2>
+<a asp-controller="Admin" asp-action="CreatePackage" class="btn btn-primary mb-3">Add Hot Deal</a>
+<hr />
+
+@if (!Model.Any())
+{
+    <p>No hot deals added yet. <a asp-controller="Admin" asp-action="CreatePackage">Add one now</a>.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Hotel</th>
+                <th>City</th>
+                <th>Price</th>
+                <th>Valid Until</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pkg in Model)
+            {
+                <tr>
+                    <td>@pkg.Title</td>
+                    <td>@pkg.HotelName</td>
+                    <td>@pkg.HotelCity</td>
+                    <td>BDT @pkg.Price.ToString("N0")</td>
+                    <td>@pkg.ValidUntil.ToString("dd MMM yyyy")</td>
+                    <td>
+                        <a asp-controller="Admin" asp-action="PackageDetails" asp-route-id="@pkg.PackageId" class="btn btn-sm btn-secondary">Details</a>
+                        <a asp-controller="Admin" asp-action="EditPackage" asp-route-id="@pkg.PackageId" class="btn btn-sm btn-primary">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

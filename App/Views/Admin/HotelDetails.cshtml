@@ -1,0 +1,15 @@
+@model HotelDTO
+@{
+    ViewData["Title"] = Model.Name + " - Details";
+}
+
+<h2>@Model.Name</h2>
+<hr />
+<p><strong>City:</strong> @Model.City</p>
+<p><strong>Star Rating:</strong> @Model.StarRating</p>
+<p><strong>Room Type:</strong> @Model.RoomType</p>
+<p><strong>Price Per Night:</strong> BDT @Model.PricePerNight.ToString("N0")</p>
+<p><strong>Description:</strong> @Model.Description</p>
+<hr />
+<a asp-controller="Admin" asp-action="EditHotel" asp-route-id="@Model.HotelId" class="btn btn-primary">Edit This Hotel</a>
+<a asp-controller="Admin" asp-action="Hotels" class="btn btn-secondary">Back to Hotels</a>

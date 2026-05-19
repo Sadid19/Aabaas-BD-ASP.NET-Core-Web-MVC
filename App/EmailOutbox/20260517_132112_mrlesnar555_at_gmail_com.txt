@@ -1,0 +1,16 @@
+To: mrlesnar555@gmail.com
+Subject: Aabaas BD - Booking Confirmed (Booked)
+
+Dear Guest,
+
+Thank you for your payment. Your hotel is booked.
+
+Hotel: Baywatch
+City: Cox's Bazar
+Check-in: 18 May 2026
+Check-out: 20 May 2026
+Total Cost: BDT 159,999.98
+Status: Booked
+
+Thank you for choosing Aabaas BD.
+

@@ -1,5 +1,28 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+@model BookingDTO
 @{
+    ViewData["Title"] = "Booking Details";
+    string badgeClass = "bg-warning text-dark";
+    if (Model.Status == "Booked") badgeClass = "bg-success";
+    if (Model.Status == "Cancelled") badgeClass = "bg-danger";
 }
+
+<h2>Booking #@Model.BookingId</h2>
+<hr />
+<p><strong>Hotel:</strong> @Model.HotelName</p>
+<p><strong>City:</strong> @Model.HotelCity</p>
+<p><strong>Status:</strong> <span class="badge @badgeClass">@Model.Status</span></p>
+<p><strong>Check-in:</strong> @Model.CheckIn.ToString("dd MMM yyyy")</p>
+<p><strong>Check-out:</strong> @Model.CheckOut.ToString("dd MMM yyyy")</p>
+<p><strong>Total:</strong> BDT @Model.TotalCost.ToString("N2")</p>
+<hr />
+
+@if (Model.CanCancel)
+{
+    <form method="post" asp-controller="Booking" asp-action="Cancel" class="d-inline">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="bookingId" value="@Model.BookingId" />
+        <button type="submit" class="btn btn-danger btn-sm"
+                onclick="return confirm('Cancel this booking?');">Cancel Booking</button>
+    </form>
+}
+<a asp-controller="Booking" asp-action="History" class="btn btn-secondary btn-sm">Back to History</a>

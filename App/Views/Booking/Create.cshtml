@@ -1,5 +1,32 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+@model BookingDTO
 @{
+    ViewData["Title"] = "Book Hotel";
+}
+
+<h2>Book @Model.HotelName</h2>
+<p>@Model.HotelCity &mdash; BDT @Model.PricePerNight.ToString("N0") / night</p>
+<hr />
+
+<form method="post" asp-controller="Booking" asp-action="Create" style="max-width: 480px;">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="HotelId" />
+    <input type="hidden" asp-for="UserId" />
+
+    <div class="mb-3">
+        <label asp-for="CheckIn"></label>
+        <input asp-for="CheckIn" type="date" class="form-control" />
+        <span asp-validation-for="CheckIn" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="CheckOut"></label>
+        <input asp-for="CheckOut" type="date" class="form-control" />
+        <span asp-validation-for="CheckOut" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Calculate &amp; Review</button>
+    <a asp-controller="Hotel" asp-action="Details" asp-route-id="@Model.HotelId" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
 }
